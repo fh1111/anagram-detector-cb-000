@@ -13,8 +13,16 @@ class Anagram
 
   def match(anagrams)
 
-    anagrams.include?(@word)
-    puts "#{anagrams.include?(@word)}"
+    match = []
+    i = 0
+
+    anagrams.each do |item|
+      if item.sort == @words.sort
+        match[i] = item
+        i=+1
+    end
+
+    return match
   end
 
 
