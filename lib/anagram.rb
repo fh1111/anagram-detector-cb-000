@@ -20,6 +20,7 @@ class Anagram
       if item.sort == @words.sort
         match[i] = item
         i+=1
+      end
     end
 
     return match
