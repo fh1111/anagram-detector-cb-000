@@ -12,8 +12,10 @@ class Anagram
   end
 
   def match(anagrams)
-    puts "#{@word.reverse.match(%w(anagrams))}"
-    @word.reverse.match(%w(anagrams))
+
+    array = []
+    array = @word.reverse.match(%w(anagrams))
+    puts "#{array}"
   end
 
 
