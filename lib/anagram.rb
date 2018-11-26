@@ -12,7 +12,7 @@ class Anagram
   end
 
   def match(anagrams)
-    puts "#{@word.reverse.match(anagrams)}"
+    #puts "#{@word.reverse.match(anagrams)}"
     @word.reverse.match(anagrams)
   end
 
