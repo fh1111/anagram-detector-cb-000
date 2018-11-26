@@ -15,6 +15,8 @@ class Anagram
 
     match = []
     i = 0
+    split = []
+    split = @word.split("")
 
     anagrams.each do |item|
       if (item.split("").sort )
