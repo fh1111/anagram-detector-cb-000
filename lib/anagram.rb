@@ -19,7 +19,7 @@ class Anagram
     anagrams.each do |item|
       if item.sort == @words.sort
         match[i] = item
-        i=+1
+        i+=1
     end
 
     return match
