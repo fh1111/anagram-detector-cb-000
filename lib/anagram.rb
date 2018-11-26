@@ -19,7 +19,7 @@ class Anagram
     split = @word.split("")
 
     anagrams.each do |item|
-      if (item.split("").sort )
+      if (item.split("").sort == split)
         match[i] = item
         i+=1
       end
