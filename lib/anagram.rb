@@ -12,7 +12,7 @@ class Anagram
   end
 
   def match(anagrams)
-    #puts "#{@list_of_emails.gsub(", ", " ")}"
+    puts "#{@word.reverse.match(%w(anagrams))}"
     @word.reverse.match(%w(anagrams))
   end
 
