@@ -17,7 +17,10 @@ class Anagram
     i = 0
 
     anagrams.each do |item|
-      puts "#{item}"
+      if (item.split("").sort == @words.split("").sort)
+        match[i] = item
+        i+=1
+      end
     end
     return match
   end
