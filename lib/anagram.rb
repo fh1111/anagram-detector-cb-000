@@ -17,7 +17,7 @@ class Anagram
     i = 0
 
     anagrams.each do |item|
-      if item.sort == @words.sort
+      if (item.sort == @words.sort)
         match[i] = item
         i+=1
       end
